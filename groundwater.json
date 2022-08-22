@@ -14,7 +14,7 @@
             }
         ],
         "_id": "local-autoincrementers",
-        "_rev": "8-aefa0694dfa25cdb198056a8474b5f70"
+        "_rev": "2-c1ee67bce09b9e05177e194cc8348a04"
     },
     {
         "is_attachment": false,
@@ -30,7 +30,7 @@
             ]
         },
         "_id": "project-metadata-access",
-        "_rev": "8-ad9410de55a52fc5f0763421e469ddaf"
+        "_rev": "2-6e7bb7a5dc13dc86727df0f075e10cf6"
     },
     {
         "is_attachment": false,
@@ -41,21 +41,21 @@
             "team"
         ],
         "_id": "project-metadata-accesses",
-        "_rev": "8-61920aa4426bfa8fcbbaa4086e69cdbc"
+        "_rev": "2-fb717da8ae39cd1c1f2134a70181fc7b"
     },
     {
         "is_attachment": false,
         "metadata":
         {},
         "_id": "project-metadata-behavious",
-        "_rev": "8-3b52fd2aa39c3851c284ef92b897ef4c"
+        "_rev": "2-1434567f4374ea530831804945fb67df"
     },
     {
         "is_attachment": false,
         "metadata":
         [],
         "_id": "project-metadata-filenames",
-        "_rev": "8-500031f0a07fd8104a855f3d2723171b"
+        "_rev": "2-556bcb233f6b1168a7b02ccd89cb9271"
     },
     {
         "is_attachment": false,
@@ -79,50 +79,50 @@
             }
         },
         "_id": "project-metadata-forms",
-        "_rev": "8-164efbc8d055eefa03ef9065904f04b9"
+        "_rev": "2-844ea8d96c28e5221b709ca818d176e7"
     },
     {
         "is_attachment": false,
         "metadata": false,
         "_id": "project-metadata-ispublic",
-        "_rev": "8-1e82558a10df3dc4fbc45d24e7ac40b3"
+        "_rev": "2-6cf3ccfeecccddc26edca3925b3f3fb3"
     },
     {
         "is_attachment": false,
         "metadata": true,
         "_id": "project-metadata-isrequest",
-        "_rev": "8-a85b2d5b98396f28d47f6af0ed5da111"
+        "_rev": "2-b876bd5f862b41dfd3e89491b514fed4"
     },
     {
         "is_attachment": false,
         "metadata": "",
         "_id": "project-metadata-lead_institution",
-        "_rev": "8-bc382b893a6da2a3fca1028a966a7cee"
+        "_rev": "2-82159af4bd7a7b742b4ba3d5afcad3e2"
     },
     {
         "is_attachment": false,
         "metadata":
         {},
         "_id": "project-metadata-meta",
-        "_rev": "8-b8571effa55bdf07c44714986101df14"
+        "_rev": "2-43c19e4040a2063d77c9bc0de44d3b8d"
     },
     {
         "is_attachment": false,
         "metadata": "Groundwater Vegetation Module",
         "_id": "project-metadata-pre_description",
-        "_rev": "8-00c3c0fa2e122039e15ef2136e78edf3"
+        "_rev": "2-e2e7965d9be7373afd01f9874c0e4159"
     },
     {
         "is_attachment": false,
         "metadata": "",
         "_id": "project-metadata-project_lead",
-        "_rev": "8-5861d0f68daec5fd372841e8b5966368"
+        "_rev": "2-8cc7003d4fde75c6dd0648d3508c5b94"
     },
     {
         "is_attachment": false,
         "metadata": "New",
         "_id": "project-metadata-project_status",
-        "_rev": "8-2559bbe1b83d37ee31a603594f2407fe"
+        "_rev": "2-e013169d212f50f2e2a2c509c9942443"
     },
     {
         "is_attachment": false,
@@ -217,7 +217,7 @@
             []
         },
         "_id": "project-metadata-projectvalue",
-        "_rev": "8-dbca441b92a5aad187cbbc25ad7d2fd7"
+        "_rev": "2-d29c2e0429c75f0f9bcf9967aadb9ee1"
     },
     {
         "is_attachment": false,
@@ -261,7 +261,7 @@
             }
         },
         "_id": "project-metadata-sections",
-        "_rev": "8-e513ec84b1531c2e9708bb4d7cac65cb"
+        "_rev": "2-7f9d723e4270e6af4dddfad6ad6da7af"
     },
     {
         "fields":
@@ -1408,7 +1408,7 @@
                         "label": "uncertainty"
                     }
                 }
-            },            
+            },
             "treeNumberBoreID":
             {
                 "component-namespace": "formik-material-ui",
@@ -1730,10 +1730,6 @@
                 [
                     [
                         "yup.number"
-                    ],
-                    [
-                        "yup.min",
-                        1
                     ]
                 ],
                 "initialValue": "",
@@ -1834,10 +1830,6 @@
                 [
                     [
                         "yup.number"
-                    ],
-                    [
-                        "yup.min",
-                        1
                     ]
                 ],
                 "initialValue": "",
@@ -5095,7 +5087,7 @@
             {
                 "component-namespace": "formik-material-ui",
                 "component-name": "TextField",
-                "type-returned": "faims-core::String",
+                "type-returned": "faims-core::Integer",
                 "component-parameters":
                 {
                     "fullWidth": true,
@@ -5120,7 +5112,7 @@
                 "validationSchema":
                 [
                     [
-                        "yup.string"
+                        "yup.number"
                     ]
                 ],
                 "initialValue": "",
@@ -5928,6 +5920,6 @@
             "FORM2"
         ],
         "_id": "ui-specification",
-        "_rev": "8-f903f499f82479d82690d9da58b37565"
+        "_rev": "2-e453d301e719a879d790df44764a22e9"
     }
 ]
