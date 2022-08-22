@@ -5104,7 +5104,7 @@
                     "required": false,
                     "InputProps":
                     {
-                        "type": "text"
+                        "type": "number"
                     },
                     "SelectProps":
                     {},
@@ -5440,7 +5440,7 @@
                     "required": false,
                     "InputProps":
                     {
-                        "type": "text"
+                        "type": "number"
                     },
                     "SelectProps":
                     {},
